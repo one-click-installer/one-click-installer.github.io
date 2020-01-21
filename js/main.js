@@ -6,29 +6,22 @@ $(document).ready(function () {
 			PRELOADER
     ========================================================*/
 
-    $(window).load(function () { // makes sure the whole site is loaded
-        $('.preloader-holder .loading').fadeOut(); // will first fade out the loading animation
-        $('.preloader-holder').delay(350).fadeOut('slow');
-        // will fade out the white DIV that covers the website.
-        $('body').delay(350).css({
-            'overflow': 'visible'
-        });
-    })
+  
 
     /*=======================================================
 			FIXED NAVBAR
     ========================================================*/
 
-    $(function () {
-        $(window).on("scroll", function () {
-            var scrollTop = $(window).scrollTop();
-            if (scrollTop > 34) {
-                $(".navbar").addClass("navbar-light");
-            } else {
-                $(".navbar").removeClass("navbar-light");
-            }
-        });
-    });
+    // $(function () {
+    //     $(window).on("scroll", function () {
+    //         var scrollTop = $(window).scrollTop();
+    //         if (scrollTop > 34) {
+    //             $(".navbar").addClass("navbar-light");
+    //         } else {
+    //             $(".navbar").removeClass("navbar-light");
+    //         }
+    //     });
+    // });
 
     /*=======================================================
 			PAGE SCROLL
@@ -81,7 +74,7 @@ $(document).ready(function () {
 
         autoPlay: 3000, //Set AutoPlay to 3 seconds
 
-        items: 3,
+        items: 8,
         itemsDesktop: [1199, 3],
         itemsDesktopSmall: [979, 3]
 

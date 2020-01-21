@@ -24,7 +24,7 @@
    9*)Prices
    10*)Testimonials
    11*)Video PopUp
-   12*)App Screenshots
+   12*)App repositry
    13*)Team
    14*)Brands
    15*)Contact
@@ -586,27 +586,27 @@ h4 {
 }
 
 /*=======================================================
-			APP SCREENSHOTS:
+			APP repositry:
 ========================================================*/
 
-#screenshots {
+#repositry {
     padding: 100px 0;
     text-align: center;
 }
 
-#screenshots .title-container {
+#repositry .title-container {
     margin: 0 auto;
 }
 
-#screenshots .item {
+#repositry .item {
     margin: 40px 20px;
 }
 
-#screenshots .item img {
-    box-shadow: 0 3px 15px rgba(76, 76, 77, 0.15);
+#repositry .item img {
+    /* box-shadow: 0 3px 15px rgba(76, 76, 77, 0.15); */
 }
 
-#screenshots .owl-theme .owl-controls .owl-page span {
+#repositry .owl-theme .owl-controls .owl-page span {
     display: block;
     width: 12px;
     height: 12px;
@@ -620,8 +620,8 @@ h4 {
     background: transparent;
 }
 
-#screenshots .owl-theme .owl-controls .owl-page.active span,
-#screenshots .owl-theme .owl-controls.clickable .owl-page:hover span {
+#repositry .owl-theme .owl-controls .owl-page.active span,
+#repositry .owl-theme .owl-controls.clickable .owl-page:hover span {
     background: #068BEA;
 }
 
